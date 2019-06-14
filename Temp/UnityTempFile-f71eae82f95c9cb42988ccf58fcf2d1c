@@ -1,0 +1,388 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll"
+-r:Assets/Plugins/Photon3Unity3D.dll
+-r:Assets/Plugins/WP8Native.dll
+-r:Assets/Plugins/UnityPurchasing/Bin/Common.dll
+-r:Assets/Plugins/UnityPurchasing/Bin/Security.dll
+-r:Assets/Plugins/UnityPurchasing/Bin/Stores.dll
+-r:Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll
+-r:Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll
+-r:Assets/Plugins/UnityPurchasing/winrt/winrt.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_5
+-define:UNITY_5_5
+-define:UNITY_5
+-define:UNITY_PURCHASING
+-define:UNITY_ANALYTICS
+-define:UNITY_ADS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_ANDROID
+-define:ENABLE_SUBSTANCE
+-define:UNITY_ANDROID_API
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_VIDEO
+-define:ENABLE_VR
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:DEVELOPMENT_BUILD
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+Assets/8Ball/CheckIfPlayerIsFriend.cs
+Assets/8Ball/Scripts/AddAvatars.cs
+Assets/8Ball/Scripts/AddChatBubbles.cs
+Assets/8Ball/Scripts/BuyItemControl.cs
+Assets/8Ball/Scripts/CallPocketButtonController.cs
+Assets/8Ball/Scripts/ChangeBallsMessageText.cs
+Assets/8Ball/Scripts/ChatShopController.cs
+Assets/8Ball/Scripts/ClearPlayerPrefs.cs
+Assets/8Ball/Scripts/ConnectionLostController.cs
+Assets/8Ball/Scripts/ControlAvatars.cs
+Assets/8Ball/Scripts/CueShopController.cs
+Assets/8Ball/Scripts/DisconnectFromPhoton.cs
+Assets/8Ball/Scripts/FacebookFriendsMenu.cs
+Assets/8Ball/Scripts/FacebookManager.cs
+Assets/8Ball/Scripts/FriendsFilteringScript.cs
+Assets/8Ball/Scripts/Game/BallUIController.cs
+Assets/8Ball/Scripts/Game/CameraAdjustSize.cs
+Assets/8Ball/Scripts/Game/CircleLineRenderer.cs
+Assets/8Ball/Scripts/Game/CueController.cs
+Assets/8Ball/Scripts/Game/CueHideSetColor.cs
+Assets/8Ball/Scripts/Game/CueSpinBackgroundController.cs
+Assets/8Ball/Scripts/Game/CueSpinShow.cs
+Assets/8Ball/Scripts/Game/DontGoThroughtThings.cs
+Assets/8Ball/Scripts/Game/FakeShadowController.cs
+Assets/8Ball/Scripts/Game/FindNewWhiteBallPosition.cs
+Assets/8Ball/Scripts/Game/GameControllerScript.cs
+Assets/8Ball/Scripts/Game/HUDFPS.cs
+Assets/8Ball/Scripts/Game/LockZPosition.cs
+Assets/8Ball/Scripts/Game/PotedBallsGUIController.cs
+Assets/8Ball/Scripts/Game/ShotPowerScript.cs
+Assets/8Ball/Scripts/Game/SpawnBallsScript.cs
+Assets/8Ball/Scripts/Game/SpinController.cs
+Assets/8Ball/Scripts/Game/StaticStrings.cs
+Assets/8Ball/Scripts/GameManager.cs
+Assets/8Ball/Scripts/GlobalVariables.cs
+Assets/8Ball/Scripts/IAPController.cs
+Assets/8Ball/Scripts/InitMenuScript.cs
+Assets/8Ball/Scripts/InviteRewardTextScript.cs
+Assets/8Ball/Scripts/MoveAvatar.cs
+Assets/8Ball/Scripts/MultiplayerGame.cs
+Assets/8Ball/Scripts/PhotonChatListener.cs
+Assets/8Ball/Scripts/PhotonChatListener2.cs
+Assets/8Ball/Scripts/PlayFabAddFriend.cs
+Assets/8Ball/Scripts/PlayFabFriendScript.cs
+Assets/8Ball/Scripts/PlayFabManager.cs
+Assets/8Ball/Scripts/SelectedTabluButtonClicked.cs
+Assets/8Ball/Scripts/SetMyData.cs
+Assets/8Ball/Scripts/SetTableTexture.cs
+Assets/8Ball/Scripts/StartScriptController.cs
+Assets/8Ball/Scripts/WinnerControllerScript.cs
+Assets/8Ball/Scripts/YouWinMessageChangeSprite.cs
+Assets/8Ball/Scripts/lockHandRotation.cs
+Assets/AdMobInterstitialController/InterstitialAdsControllerScript.cs
+Assets/FacebookSDK/Examples/Scripts/ConsoleBase.cs
+Assets/FacebookSDK/Examples/Scripts/LogView.cs
+Assets/FacebookSDK/Examples/Scripts/MenuBase.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/AccessTokenMenu.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/AppEvents.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/AppInvites.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/AppLinks.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/AppRequests.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/DialogShare.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/GameGroups.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/GraphRequest.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs
+Assets/FacebookSDK/Examples/Scripts/SubMenus/Pay.cs
+Assets/FacebookSDK/SDK/Scripts/AccessToken.cs
+Assets/FacebookSDK/SDK/Scripts/AppEventName.cs
+Assets/FacebookSDK/SDK/Scripts/AppEventParameterName.cs
+Assets/FacebookSDK/SDK/Scripts/CallbackManager.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/CanvasFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/CanvasFacebookGameObject.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/CanvasFacebookLoader.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/CanvasJSWrapper.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/ICanvasFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/ICanvasFacebookCallbackHandler.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/ICanvasFacebookImplementation.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/ICanvasFacebookResultHandler.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/ICanvasJSWrapper.cs
+Assets/FacebookSDK/SDK/Scripts/Canvas/JsBridge.cs
+Assets/FacebookSDK/SDK/Scripts/ComponentFactory.cs
+Assets/FacebookSDK/SDK/Scripts/Constants.cs
+Assets/FacebookSDK/SDK/Scripts/FB.cs
+Assets/FacebookSDK/SDK/Scripts/FacebookBase.cs
+Assets/FacebookSDK/SDK/Scripts/FacebookGameObject.cs
+Assets/FacebookSDK/SDK/Scripts/FacebookSdkVersion.cs
+Assets/FacebookSDK/SDK/Scripts/FacebookSettings.cs
+Assets/FacebookSDK/SDK/Scripts/FacebookUnityPlatform.cs
+Assets/FacebookSDK/SDK/Scripts/IFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/IFacebookCallbackHandler.cs
+Assets/FacebookSDK/SDK/Scripts/IFacebookImplementation.cs
+Assets/FacebookSDK/SDK/Scripts/IFacebookResultHandler.cs
+Assets/FacebookSDK/SDK/Scripts/IPayFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/MethodArguments.cs
+Assets/FacebookSDK/SDK/Scripts/MethodCall.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/Android/AndroidFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/Android/AndroidFacebookGameObject.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/Android/AndroidFacebookLoader.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/Android/FBJavaClass.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/Android/IAndroidJavaClass.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IMobileFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IMobileFacebookCallbackHandler.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IMobileFacebookImplementation.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IMobileFacebookResultHandler.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IOS/IIOSWrapper.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSFacebookGameObject.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSFacebookLoader.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/IOS/IOSWrapper.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/MobileFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/Mobile/MobileFacebookGameObject.cs
+Assets/FacebookSDK/SDK/Scripts/NativeDialogModes.cs
+Assets/FacebookSDK/SDK/Scripts/OGActionType.cs
+Assets/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebook.cs
+Assets/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebookGameObject.cs
+Assets/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebookLoader.cs
+Assets/FacebookSDK/SDK/Scripts/PlatformEditor/EditorFacebookMockDialog.cs
+Assets/FacebookSDK/SDK/Scripts/PlatformEditor/MockDialogs/EmptyMockDialog.cs
+Assets/FacebookSDK/SDK/Scripts/PlatformEditor/MockDialogs/MockLoginDialog.cs
+Assets/FacebookSDK/SDK/Scripts/PlatformEditor/MockDialogs/MockShareDialog.cs
+Assets/FacebookSDK/SDK/Scripts/Properties/AssemblyInfo.cs
+Assets/FacebookSDK/SDK/Scripts/Results/AccessTokenRefreshResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/AppInviteResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/AppLinkResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/AppReqeustResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/GraphResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/GroupCreateResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/GroupJoinResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IAccessTokenRefreshResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IAppInviteResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IAppLinkResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IAppRequestResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IGraphResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IGroupCreateResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IGroupJoinResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IInternalResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/ILoginResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IPayResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/IShareResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/LoginResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/PayResult.cs
+Assets/FacebookSDK/SDK/Scripts/Results/ResultBase.cs
+Assets/FacebookSDK/SDK/Scripts/Results/ResultContainer.cs
+Assets/FacebookSDK/SDK/Scripts/Results/ShareResult.cs
+Assets/FacebookSDK/SDK/Scripts/Utils/AsyncRequestString.cs
+Assets/FacebookSDK/SDK/Scripts/Utils/FacebookLogger.cs
+Assets/FacebookSDK/SDK/Scripts/Utils/HttpMethod.cs
+Assets/FacebookSDK/SDK/Scripts/Utils/IFacebookLogger.cs
+Assets/FacebookSDK/SDK/Scripts/Utils/MiniJson.cs
+Assets/FacebookSDK/SDK/Scripts/Utils/Utilities.cs
+Assets/GoogleMobileAds/Api/AdFailedToLoadEventArgs.cs
+Assets/GoogleMobileAds/Api/AdMobClasses/AdMobDisable.cs
+Assets/GoogleMobileAds/Api/AdMobClasses/AdMobObjectController.cs
+Assets/GoogleMobileAds/Api/AdMobClasses/AdMobObjectSingleton.cs
+Assets/GoogleMobileAds/Api/AdPosition.cs
+Assets/GoogleMobileAds/Api/AdRequest.cs
+Assets/GoogleMobileAds/Api/AdSize.cs
+Assets/GoogleMobileAds/Api/BannerView.cs
+Assets/GoogleMobileAds/Api/Gender.cs
+Assets/GoogleMobileAds/Api/ICustomInAppPurchase.cs
+Assets/GoogleMobileAds/Api/ICustomInAppPurchaseProcessor.cs
+Assets/GoogleMobileAds/Api/IDefaultInAppPurchaseProcessor.cs
+Assets/GoogleMobileAds/Api/IInAppPurchaseResult.cs
+Assets/GoogleMobileAds/Api/InterstitialAd.cs
+Assets/GoogleMobileAds/Api/Reward.cs
+Assets/GoogleMobileAds/Api/RewardBasedVideoAd.cs
+Assets/GoogleMobileAds/Common/DummyClient.cs
+Assets/GoogleMobileAds/Common/IBannerClient.cs
+Assets/GoogleMobileAds/Common/IInterstitialClient.cs
+Assets/GoogleMobileAds/Common/IRewardBasedVideoAdClient.cs
+Assets/GoogleMobileAds/Platforms/Android/BannerClient.cs
+Assets/GoogleMobileAds/Platforms/Android/CustomInAppPurchaseListener.cs
+Assets/GoogleMobileAds/Platforms/Android/DefaultInAppPurchaseListener.cs
+Assets/GoogleMobileAds/Platforms/Android/InAppPurchase.cs
+Assets/GoogleMobileAds/Platforms/Android/InAppPurchaseResult.cs
+Assets/GoogleMobileAds/Platforms/Android/InterstitialClient.cs
+Assets/GoogleMobileAds/Platforms/Android/RewardBasedVideoAdClient.cs
+Assets/GoogleMobileAds/Platforms/Android/Utils.cs
+Assets/GoogleMobileAds/Platforms/GoogleMobileAdsClientFactory.cs
+Assets/GoogleMobileAds/Platforms/iOS/BannerClient.cs
+Assets/GoogleMobileAds/Platforms/iOS/Externs.cs
+Assets/GoogleMobileAds/Platforms/iOS/InterstitialClient.cs
+Assets/GoogleMobileAds/Platforms/iOS/MonoPInvokeCallbackAttribute.cs
+Assets/GoogleMobileAds/Platforms/iOS/RewardBasedVideoAdClient.cs
+Assets/GoogleMobileAds/Platforms/iOS/Utils.cs
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/CustomTypes.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Enums.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Extensions.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/FriendInfo.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/GizmoType.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/LoadbalancingPeer.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/NetworkingPeer.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonClasses.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonHandler.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonLagSimulationGui.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonNetwork.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonPlayer.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStatsGui.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonStreamQueue.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PhotonView.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/PingCloudRegions.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/RPC.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Room.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/RoomInfo.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/RpcIndexComponent.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/SocketUdp.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/SocketWebTcp.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonAnimatorView.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbody2DView.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonRigidbodyView.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformView.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionControl.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewPositionModel.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationControl.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewRotationModel.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleControl.cs"
+"Assets/Photon Unity Networking/Plugins/PhotonNetwork/Views/PhotonTransformViewScaleModel.cs"
+"Assets/Photon Unity Networking/UtilityScripts/ConnectAndJoinRandom.cs"
+"Assets/Photon Unity Networking/UtilityScripts/CullArea.cs"
+"Assets/Photon Unity Networking/UtilityScripts/HighlightOwnedGameObj.cs"
+"Assets/Photon Unity Networking/UtilityScripts/InRoomChat.cs"
+"Assets/Photon Unity Networking/UtilityScripts/InRoomRoundTimer.cs"
+"Assets/Photon Unity Networking/UtilityScripts/InRoomTime.cs"
+"Assets/Photon Unity Networking/UtilityScripts/InputToEvent.cs"
+"Assets/Photon Unity Networking/UtilityScripts/ManualPhotonViewAllocator.cs"
+"Assets/Photon Unity Networking/UtilityScripts/MoveByKeys.cs"
+"Assets/Photon Unity Networking/UtilityScripts/NetworkCullingHandler.cs"
+"Assets/Photon Unity Networking/UtilityScripts/OnAwakeUsePhotonView.cs"
+"Assets/Photon Unity Networking/UtilityScripts/OnClickDestroy.cs"
+"Assets/Photon Unity Networking/UtilityScripts/OnClickInstantiate.cs"
+"Assets/Photon Unity Networking/UtilityScripts/OnClickLoadSomething.cs"
+"Assets/Photon Unity Networking/UtilityScripts/OnJoinedInstantiate.cs"
+"Assets/Photon Unity Networking/UtilityScripts/OnStartDelete.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer/PlayerRoomIndexing.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PickupItem.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PickupItemSimple.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PickupItemSyncer.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PointedAtGameObjectInfo.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PunPlayerScores.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PunTeams.cs"
+"Assets/Photon Unity Networking/UtilityScripts/PunTurnManager.cs"
+"Assets/Photon Unity Networking/UtilityScripts/QuitOnEscapeOrBack.cs"
+"Assets/Photon Unity Networking/UtilityScripts/ServerTime.cs"
+"Assets/Photon Unity Networking/UtilityScripts/ShowInfoOfPlayer.cs"
+"Assets/Photon Unity Networking/UtilityScripts/ShowStatusWhenConnecting.cs"
+"Assets/Photon Unity Networking/UtilityScripts/SmoothSyncMovement.cs"
+"Assets/Photon Unity Networking/UtilityScripts/SupportLogger.cs"
+"Assets/Photon Unity Networking/UtilityScripts/TimeKeeper.cs"
+"Assets/Photon Unity Networking/UtilityScripts/UI/ButtonInsideScrollList.cs"
+"Assets/Photon Unity Networking/UtilityScripts/UI/TextButtonTransition.cs"
+"Assets/Photon Unity Networking/UtilityScripts/UI/TextToggleIsOnTransition.cs"
+Assets/PhotonChatApi/ChatChannel.cs
+Assets/PhotonChatApi/ChatClient.cs
+Assets/PhotonChatApi/ChatDisconnectCause.cs
+Assets/PhotonChatApi/ChatEventCode.cs
+Assets/PhotonChatApi/ChatOperationCode.cs
+Assets/PhotonChatApi/ChatParameterCode.cs
+Assets/PhotonChatApi/ChatPeer.cs
+Assets/PhotonChatApi/ChatState.cs
+Assets/PhotonChatApi/ChatUserStatus.cs
+Assets/PhotonChatApi/IChatClientListener.cs
+Assets/PlayFabSDK/Internal/ISerializer.cs
+Assets/PlayFabSDK/Internal/Log.cs
+Assets/PlayFabSDK/Internal/PlayFabHTTP.cs
+Assets/PlayFabSDK/Internal/PlayFabVersion.cs
+Assets/PlayFabSDK/Internal/ResultContainer.cs
+Assets/PlayFabSDK/Internal/SimpleJson.cs
+Assets/PlayFabSDK/Internal/SingletonMonoBehaviour.cs
+Assets/PlayFabSDK/Internal/Testing/EventTest.cs
+Assets/PlayFabSDK/Internal/Testing/JsonUnitTests.cs
+Assets/PlayFabSDK/Internal/Testing/PlayFabApiTest_Client.cs
+Assets/PlayFabSDK/Internal/Testing/UtilTest.cs
+Assets/PlayFabSDK/Internal/Util.cs
+Assets/PlayFabSDK/Ionic.Zlib/CRC32.cs
+Assets/PlayFabSDK/Ionic.Zlib/Deflate.cs
+Assets/PlayFabSDK/Ionic.Zlib/DeflateStream.cs
+Assets/PlayFabSDK/Ionic.Zlib/GZipStream.cs
+Assets/PlayFabSDK/Ionic.Zlib/InfTree.cs
+Assets/PlayFabSDK/Ionic.Zlib/Inflate.cs
+Assets/PlayFabSDK/Ionic.Zlib/ParallelDeflateOutputStream.cs
+Assets/PlayFabSDK/Ionic.Zlib/ZTree.cs
+Assets/PlayFabSDK/Ionic.Zlib/Zlib.cs
+Assets/PlayFabSDK/Ionic.Zlib/ZlibBaseStream.cs
+Assets/PlayFabSDK/Ionic.Zlib/ZlibCodec.cs
+Assets/PlayFabSDK/Ionic.Zlib/ZlibConstants.cs
+Assets/PlayFabSDK/Ionic.Zlib/ZlibStream.cs
+Assets/PlayFabSDK/Public/PlayFabClientAPI.cs
+Assets/PlayFabSDK/Public/PlayFabClientModels.cs
+Assets/PlayFabSDK/Public/PlayFabSettings.cs
+Assets/PlayFabSDK/Uunit/UUnitAssert.cs
+Assets/PlayFabSDK/Uunit/UUnitAssertException.cs
+Assets/PlayFabSDK/Uunit/UUnitTestCase.cs
+Assets/PlayFabSDK/Uunit/UUnitTestResult.cs
+Assets/PlayFabSDK/Uunit/UUnitTestSuite.cs
+Assets/PlayFabSDK/Uunit/UnityIncrementalTestRunner.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

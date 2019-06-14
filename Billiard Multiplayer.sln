@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billiard Multiplayer", "Assembly-CSharp-firstpass.csproj", "{597AADF3-56D9-1B0A-007E-4D0CD9705BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billiard Multiplayer", "Assembly-CSharp.csproj", "{8089EA63-C736-CCB0-EBC4-A35D048D0764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billiard Multiplayer", "Assembly-CSharp-Editor-firstpass.csproj", "{601FD338-CC74-119E-1312-DA80D535D9A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billiard Multiplayer", "Assembly-CSharp-Editor.csproj", "{38D4615C-CBDA-C885-1966-08F861A27140}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597AADF3-56D9-1B0A-007E-4D0CD9705BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597AADF3-56D9-1B0A-007E-4D0CD9705BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597AADF3-56D9-1B0A-007E-4D0CD9705BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597AADF3-56D9-1B0A-007E-4D0CD9705BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8089EA63-C736-CCB0-EBC4-A35D048D0764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8089EA63-C736-CCB0-EBC4-A35D048D0764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8089EA63-C736-CCB0-EBC4-A35D048D0764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8089EA63-C736-CCB0-EBC4-A35D048D0764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601FD338-CC74-119E-1312-DA80D535D9A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601FD338-CC74-119E-1312-DA80D535D9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601FD338-CC74-119E-1312-DA80D535D9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601FD338-CC74-119E-1312-DA80D535D9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D4615C-CBDA-C885-1966-08F861A27140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D4615C-CBDA-C885-1966-08F861A27140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D4615C-CBDA-C885-1966-08F861A27140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D4615C-CBDA-C885-1966-08F861A27140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

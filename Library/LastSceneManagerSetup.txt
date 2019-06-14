@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/8Ball/Scenes/LoginSplash.unity
+  isLoaded: 1
+  isActive: 1

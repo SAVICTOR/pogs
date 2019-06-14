@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8089EA63-C736-CCB0-EBC4-A35D048D0764}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_5;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\8Ball\CheckIfPlayerIsFriend.cs" />
+     <Compile Include="Assets\8Ball\Scripts\AddAvatars.cs" />
+     <Compile Include="Assets\8Ball\Scripts\AddChatBubbles.cs" />
+     <Compile Include="Assets\8Ball\Scripts\BuyItemControl.cs" />
+     <Compile Include="Assets\8Ball\Scripts\CallPocketButtonController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\ChangeBallsMessageText.cs" />
+     <Compile Include="Assets\8Ball\Scripts\ChatShopController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\ClearPlayerPrefs.cs" />
+     <Compile Include="Assets\8Ball\Scripts\ConnectionLostController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\ControlAvatars.cs" />
+     <Compile Include="Assets\8Ball\Scripts\CueShopController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\DisconnectFromPhoton.cs" />
+     <Compile Include="Assets\8Ball\Scripts\FacebookFriendsMenu.cs" />
+     <Compile Include="Assets\8Ball\Scripts\FacebookManager.cs" />
+     <Compile Include="Assets\8Ball\Scripts\FriendsFilteringScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\BallUIController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\CameraAdjustSize.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\CircleLineRenderer.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\CueController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\CueHideSetColor.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\CueSpinBackgroundController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\CueSpinShow.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\DontGoThroughtThings.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\FakeShadowController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\FindNewWhiteBallPosition.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\GameControllerScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\HUDFPS.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\LockZPosition.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\PotedBallsGUIController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\ShotPowerScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\SpawnBallsScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\SpinController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\Game\StaticStrings.cs" />
+     <Compile Include="Assets\8Ball\Scripts\GameManager.cs" />
+     <Compile Include="Assets\8Ball\Scripts\GlobalVariables.cs" />
+     <Compile Include="Assets\8Ball\Scripts\IAPController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\InitMenuScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\InviteRewardTextScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\MoveAvatar.cs" />
+     <Compile Include="Assets\8Ball\Scripts\MultiplayerGame.cs" />
+     <Compile Include="Assets\8Ball\Scripts\PhotonChatListener.cs" />
+     <Compile Include="Assets\8Ball\Scripts\PhotonChatListener2.cs" />
+     <Compile Include="Assets\8Ball\Scripts\PlayFabAddFriend.cs" />
+     <Compile Include="Assets\8Ball\Scripts\PlayFabFriendScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\PlayFabManager.cs" />
+     <Compile Include="Assets\8Ball\Scripts\SelectedTabluButtonClicked.cs" />
+     <Compile Include="Assets\8Ball\Scripts\SetMyData.cs" />
+     <Compile Include="Assets\8Ball\Scripts\SetTableTexture.cs" />
+     <Compile Include="Assets\8Ball\Scripts\StartScriptController.cs" />
+     <Compile Include="Assets\8Ball\Scripts\WinnerControllerScript.cs" />
+     <Compile Include="Assets\8Ball\Scripts\YouWinMessageChangeSprite.cs" />
+     <Compile Include="Assets\8Ball\Scripts\lockHandRotation.cs" />
+     <Compile Include="Assets\AdMobInterstitialController\InterstitialAdsControllerScript.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppInvites.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GameGroups.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+     <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AccessToken.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AppEventName.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\AppEventParameterName.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\CallbackManager.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\CanvasJSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\ICanvasJSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Canvas\JsBridge.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\ComponentFactory.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Constants.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FB.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookBase.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookSdkVersion.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookSettings.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\FacebookUnityPlatform.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\IPayFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\MethodArguments.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\MethodCall.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\FBJavaClass.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\Android\IAndroidJavaClass.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookImplementation.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IMobileFacebookResultHandler.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IIOSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\IOS\IOSWrapper.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\MobileFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Mobile\MobileFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\OGActionType.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebook.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookGameObject.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\EditorFacebookMockDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\EmptyMockDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\MockLoginDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\PlatformEditor\MockDialogs\MockShareDialog.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AccessTokenRefreshResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppInviteResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppLinkResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\AppReqeustResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GraphResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GroupCreateResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\GroupJoinResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAccessTokenRefreshResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppInviteResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppLinkResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IAppRequestResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGraphResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGroupCreateResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IGroupJoinResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IInternalResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ILoginResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IPayResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\IShareResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\LoginResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\PayResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ResultBase.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ResultContainer.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Results\ShareResult.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\AsyncRequestString.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\FacebookLogger.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\HttpMethod.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\IFacebookLogger.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\MiniJson.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Scripts\Utils\Utilities.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdMobClasses\AdMobDisable.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdMobClasses\AdMobObjectController.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdMobClasses\AdMobObjectSingleton.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RpcIndexComponent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\CullArea.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\HighlightOwnedGameObj.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomRoundTimer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomTime.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\NetworkCullingHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnAwakeUsePhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\PlayerRoomIndexing.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTurnManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ServerTime.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowInfoOfPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\ButtonInsideScrollList.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextButtonTransition.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatChannel.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatClient.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatDisconnectCause.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatEventCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatOperationCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatParameterCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatPeer.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
+     <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\ISerializer.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\Log.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\PlayFabHTTP.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\PlayFabVersion.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\ResultContainer.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\SimpleJson.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\Testing\EventTest.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\Testing\JsonUnitTests.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\Testing\PlayFabApiTest_Client.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\Testing\UtilTest.cs" />
+     <Compile Include="Assets\PlayFabSDK\Internal\Util.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\CRC32.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\Deflate.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\DeflateStream.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\GZipStream.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\InfTree.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\Inflate.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ParallelDeflateOutputStream.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZTree.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\Zlib.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibBaseStream.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibCodec.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibConstants.cs" />
+     <Compile Include="Assets\PlayFabSDK\Ionic.Zlib\ZlibStream.cs" />
+     <Compile Include="Assets\PlayFabSDK\Public\PlayFabClientAPI.cs" />
+     <Compile Include="Assets\PlayFabSDK\Public\PlayFabClientModels.cs" />
+     <Compile Include="Assets\PlayFabSDK\Public\PlayFabSettings.cs" />
+     <Compile Include="Assets\PlayFabSDK\Uunit\UUnitAssert.cs" />
+     <Compile Include="Assets\PlayFabSDK\Uunit\UUnitAssertException.cs" />
+     <Compile Include="Assets\PlayFabSDK\Uunit\UUnitTestCase.cs" />
+     <Compile Include="Assets\PlayFabSDK\Uunit\UUnitTestResult.cs" />
+     <Compile Include="Assets\PlayFabSDK\Uunit\UUnitTestSuite.cs" />
+     <Compile Include="Assets\PlayFabSDK\Uunit\UnityIncrementalTestRunner.cs" />
+     <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
+     <None Include="Assets\Photon Unity Networking\link.xml" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\PlayFabSDK\link.xml" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\8Ball\Shaders\TransparencShader.shader" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\8Ball\Shaders\cueShaderHide.shader" />
+     <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+     <None Include="Assets\8Ball\Shaders\MaskShader.shader" />
+     <None Include="Assets\8Ball\Shaders\cueMaskShader.shader" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="WP8Native">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/WP8Native.dll</HintPath>
+ </Reference>
+ <Reference Include="WP8PopUps">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/WP8PopUps.dll</HintPath>
+ </Reference>
+ <Reference Include="WSANative">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/WSANative.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/Funmi/Downloads/8Poolf/8Pool/Billiard Multiplayer/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{597AADF3-56D9-1B0A-007E-4D0CD9705BF3}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
